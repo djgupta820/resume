@@ -14,6 +14,9 @@ function darkTheme()
     document.getElementById("os").style.color = "#F1C40F";
     document.getElementById("cer").style.color = "#F1C40F";
     document.getElementById("pp").style.color = "#F1C40F";
+    document.getElementById("img").style.borderBottom = "2px solid #F1C40F";
+    document.getElementById("img").style.borderTop = "2px solid #F1C40F";
+
 }
 
 function lightTheme()
@@ -32,4 +35,7 @@ function lightTheme()
     document.getElementById("os").style.color = "brown";
     document.getElementById("cer").style.color = "brown";
     document.getElementById("pp").style.color = "brown";
+    document.getElementById("img").style.borderBottom = "2px solid brown";
+    document.getElementById("img").style.borderTop = "2px solid brown";
+    document.getElementById("hr").border="2px solid brown";
 }
