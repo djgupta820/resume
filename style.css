@@ -105,16 +105,30 @@ input[type="submit"]{
     background-color: #5DADE2;
     float:right;
 }
-@media (min-width:400px) and (max-width:600px) { /* means screenless than or equal to 600 px*/
+@media (min-width:641px) and (max-width:1000px) { /* means screenless than or equal to 600 px*/
     body{
         margin-left: 5px;
         margin-right:5px;
         padding: auto;
         display: block;
+        font-size: 30px;
+    }
+    .img-class img{
+        height:450px;
+        width: 450px;
+    }
+    .box{
+        width: auto;
+        max-width: 400px;
+        line-height: 40px;
     }
     .box2{
         width: auto;
-        max-width: 250px;
+        max-width: 400px;
+        line-height: 40px;
+    }
+    .box p{
+        display: block;
     }
     input{
         float: left;
