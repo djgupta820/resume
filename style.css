@@ -106,11 +106,6 @@ input[type="submit"]{
     float:right;
 }
 @media (min-width:400px) and (max-width:600px) { /* means screenless than or equal to 600 px*/
-    body{
-        margin: auto;
-        padding: auto;
-        display: block;
-    }
     .box2{
         width: auto;
         max-width: 250px;
