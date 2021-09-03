@@ -16,6 +16,8 @@ body{
     height: fit-content;
     float: left;
     margin: 20px;
+    border-left:1px solid gray;
+    border-top:1px solid gray:
 }
 hr{
     border: 1px solid #F1C40F;
@@ -78,6 +80,8 @@ a{
     float: left;
     margin: 20px;
     min-width: 600px;
+    border-right:1px solid gray;
+    border-bottom:1px solid gray;
 }
 .box2{
     height: auto;
